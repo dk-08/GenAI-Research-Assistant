@@ -35,6 +35,45 @@ Built using **FastAPI** (backend) and **Streamlit** (frontend), the app enables 
 
 ---
 
+Here’s a clean and professional **“GenAI Support (Optional)”** section you can copy into your `README.md` 👇
+
+---
+
+### 🧠 GenAI Support (Optional Upgrade)
+
+> This project supports optional integration with **OpenAI's GPT-3.5/4 API** to enable Generative AI–powered responses.
+
+When enabled, the assistant can:
+
+* Generate more **context-aware, human-like answers**
+* Produce higher-quality **summaries and justifications**
+* Be upgraded for use in advanced NLP use cases
+
+#### 🔧 How to Enable GPT Support:
+
+1. Get your OpenAI API key from [https://platform.openai.com](https://platform.openai.com)
+
+2. In the backend terminal, set your key before running the server:
+
+   ```bash
+   $env:OPENAI_API_KEY="sk-..."
+   ```
+
+3. GPT logic is already implemented inside:
+
+   * `utils/qa_engine.py`
+   * (Optional) `utils/summarizer.py`
+
+4. Run the backend:
+
+   ```bash
+   uvicorn main:app --reload
+   ```
+
+> ✅ GPT is not required — the app also works fully offline with rule-based logic.
+
+---
+
 ## 📁 Project Structure
 
 ```
