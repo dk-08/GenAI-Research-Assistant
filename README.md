@@ -35,10 +35,6 @@ Built using **FastAPI** (backend) and **Streamlit** (frontend), the app enables 
 
 ---
 
-Here’s a clean and professional **“GenAI Support (Optional)”** section you can copy into your `README.md` 👇
-
----
-
 ###  GenAI Support (Optional Upgrade)
 
 > This project supports optional integration with **OpenAI's GPT-3.5/4 API** to enable Generative AI–powered responses.
