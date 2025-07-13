@@ -2,16 +2,16 @@
 
 The **GenAI Research Assistant** is an intelligent, document-aware application that allows users to:
 
-- 📤 Upload `.pdf` or `.txt` files
-- 🧠 Automatically generate concise summaries
-- ❓ Ask questions about the uploaded content
-- 🧩 Take challenge-style quizzes based on the document
+-  Upload `.pdf` or `.txt` files
+-  Automatically generate concise summaries
+-  Ask questions about the uploaded content
+-  Take challenge-style quizzes based on the document
 
 Built using **FastAPI** (backend) and **Streamlit** (frontend), the app enables interactive exploration and self-evaluation of textual content — all offline.
 
 ---
 
-## 🚀 Features
+##  Features
 
 - **Document Upload** — Supports `.txt` and `.pdf` files
 - **Summarization** — Auto-generates summaries using simple heuristics
@@ -22,7 +22,7 @@ Built using **FastAPI** (backend) and **Streamlit** (frontend), the app enables 
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer       | Technology |
 |-------------|------------|
@@ -39,7 +39,7 @@ Here’s a clean and professional **“GenAI Support (Optional)”** section you
 
 ---
 
-### 🧠 GenAI Support (Optional Upgrade)
+###  GenAI Support (Optional Upgrade)
 
 > This project supports optional integration with **OpenAI's GPT-3.5/4 API** to enable Generative AI–powered responses.
 
@@ -49,7 +49,7 @@ When enabled, the assistant can:
 * Produce higher-quality **summaries and justifications**
 * Be upgraded for use in advanced NLP use cases
 
-#### 🔧 How to Enable GPT Support:
+####  How to Enable GPT Support:
 
 1. Get your OpenAI API key from [https://platform.openai.com](https://platform.openai.com)
 
@@ -70,11 +70,11 @@ When enabled, the assistant can:
    uvicorn main:app --reload
    ```
 
-> ✅ GPT is not required — the app also works fully offline with rule-based logic.
+>  GPT is not required — the app also works fully offline with rule-based logic.
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 
@@ -99,9 +99,9 @@ GenAI\_Research\_Assistant/
 
 ---
 
-## 💻 How to Run the App
+##  How to Run the App
 
-### 🔧 Backend (FastAPI)
+###  Backend (FastAPI)
 
 ```bash
 cd backend
@@ -115,7 +115,7 @@ uvicorn main:app --reload
 
 ---
 
-### 🖥️ Frontend (Streamlit)
+###  Frontend (Streamlit)
 
 In another terminal:
 
@@ -131,12 +131,12 @@ streamlit run app.py
 
 ---
 
-## 📸 Sample UI
+##  Sample UI
 <img width="469" height="729" alt="Screenshot 2025-07-13 171606" src="https://github.com/user-attachments/assets/74bb45da-fd74-4cb6-b454-302ebaadebf7" />   <img width="477" height="722" alt="Screenshot 2025-07-13 171623" src="https://github.com/user-attachments/assets/8967930a-6355-4e05-a9bd-aa538b863865" />
 
 ---
 
-## 🧠 Example Use Cases
+##  Example Use Cases
 
 * Reading summaries of research papers
 * Asking questions from academic content
@@ -145,13 +145,13 @@ streamlit run app.py
 
 ---
 
-## 📄 License
+##  License
 
 This project is for educational and research purposes only.
 
 ---
 
-## 🙌 Author
+##  Author
 
 **Disha Kaushik**
 [GitHub](https://github.com/dk-08)
